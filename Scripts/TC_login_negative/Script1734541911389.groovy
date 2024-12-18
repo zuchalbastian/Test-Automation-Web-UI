@@ -21,13 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo.firefly-iii.org/login')
 
-WebUI.setText(findTestObject('Object Repository/OR_login/Page_Login to Firefly III/input_demo_email'), 'demo@firefly')
+WebUI.setText(findTestObject('Object Repository/OR_login_negative/Page_Login to Firefly III/input_demo_email'), 'demo@fire.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/OR_login/Page_Login to Firefly III/input_demo_password'), 'PblvLzUlPsM=')
+WebUI.setEncryptedText(findTestObject('Object Repository/OR_login_negative/Page_Login to Firefly III/input_demo_password'), 
+    'PblvLzUlPsM=')
 
-WebUI.click(findTestObject('Object Repository/OR_login/Page_Login to Firefly III/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/OR_login_negative/Page_Login to Firefly III/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/OR_login/Page_Home  Firefly III/a_Logout'))
+WebUI.verifyTextPresent("These credentials do not match our records.", false)
+
+WebUI.setText(findTestObject('Object Repository/OR_login_negative/Page_Login to Firefly III/input_demo_email'), 'demo@firefly')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/OR_login_negative/Page_Login to Firefly III/input_demo_password'), 
+    'KuC5M6xKe5uvO/soexOEDQ==')
+
+WebUI.click(findTestObject('Object Repository/OR_login_negative/Page_Login to Firefly III/button_Sign in'))
+
+WebUI.verifyTextPresent("These credentials do not match our records.", false, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

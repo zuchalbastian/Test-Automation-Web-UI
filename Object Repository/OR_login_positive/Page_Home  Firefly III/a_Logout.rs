@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6b216e0c-583e-481f-ba98-51c506a3bd41</webElementGuid>
+      <webElementGuid>cf99844c-6b2e-46a9-b2e0-2e16684e902d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.firefly-iii.org/logout</value>
-      <webElementGuid>20db02bf-c894-4697-a302-e924f64effb4</webElementGuid>
+      <webElementGuid>e9dfb385-31a4-462a-8cab-5f308679c958</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>logout-link</value>
-      <webElementGuid>f07fa7d5-cfb0-47de-837e-dac5cbbec211</webElementGuid>
+      <webElementGuid>334f1247-c3ee-4bbf-9c72-0262ef83284c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
                 Logout
                 
             </value>
-      <webElementGuid>a0139286-7d19-4304-81a4-755dcbe4b3c4</webElementGuid>
+      <webElementGuid>795a7f89-c3bf-4ad2-b6c7-0e5439a110bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/aside[@class=&quot;main-sidebar&quot;]/section[@class=&quot;sidebar&quot;]/ul[@class=&quot;sidebar-menu tree&quot;]/li[15]/a[@class=&quot;logout-link&quot;]</value>
-      <webElementGuid>facf89c5-cece-4691-8a67-aec7b82be9eb</webElementGuid>
+      <webElementGuid>81da03f1-2c78-4093-b084-f653eb7820c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/aside/section/ul/li[15]/a</value>
-      <webElementGuid>9ac90023-b876-4cd5-9b6d-f9c433c1fba0</webElementGuid>
+      <webElementGuid>4ac58470-21c8-49ec-b3e7-4cfc83c315e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Currencies'])[1]/following::a[1]</value>
-      <webElementGuid>7a0690df-5a1b-4169-96cd-6e018ef2ea8d</webElementGuid>
+      <webElementGuid>bbf3fc4d-e47a-4133-9908-8ddb4632043d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Preferences'])[1]/following::a[2]</value>
-      <webElementGuid>400db557-5df6-474a-ae06-627ad6fabfdc</webElementGuid>
+      <webElementGuid>577fcc13-98d2-44cc-a362-756bb6163ddd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.firefly-iii.org/logout')]</value>
-      <webElementGuid>d52cd4dd-cf87-4ebf-8e53-af19b188fec8</webElementGuid>
+      <webElementGuid>d7375e90-2f01-466e-b453-25b03c6950d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[15]/a</value>
-      <webElementGuid>1e2a2016-fdb7-4f8b-a4e3-d32d49839e60</webElementGuid>
+      <webElementGuid>ad3fe6bb-5859-47e7-b375-71f57570ea5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
                 Logout
                 
             ')]</value>
-      <webElementGuid>d78d3874-b925-4797-ba3e-4172776fbae1</webElementGuid>
+      <webElementGuid>3781caa9-ba39-4ae1-b17d-12a2f443e1be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
