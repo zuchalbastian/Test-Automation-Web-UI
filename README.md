@@ -16,14 +16,9 @@ Comprehensive web UI test automation framework built with **Katalon Studio** and
 8. [Data‑Driven Testing](#data‑driven-testing)
 9. [Custom Keywords & Scripts](#custom-keywords--scripts)
 10. [Execution](#execution)
-
-    * [Katalon Studio GUI](#katalon-studio-gui)
-    * [Gradle CLI](#gradle-cli)
-    * [CI/CD Integration](#cicd-integration)
 11. [Reporting & Logs](#reporting--logs)
-12. [Troubleshooting](#troubleshooting)
-13. [Contributing](#contributing)
-14. [License](#license)
+12. [Contributing](#contributing)
+13. [License](#license)
 
 ---
 
