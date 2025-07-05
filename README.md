@@ -1,6 +1,6 @@
 # Test‑Automation‑Web‑UI
 
-Comprehensive web UI test automation framework built with **Katalon Studio** and **Gradle**, featuring data‑driven testing, modular design, custom keywords, and CI/CD integration.
+Comprehensive web UI test automation framework built with **Katalon Studio** and **Gradle**, featuring data‑driven testing, modular design, and custom keywords.
 
 ---
 
